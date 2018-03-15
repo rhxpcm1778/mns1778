@@ -43,6 +43,7 @@ char* toUpperCase(char* str){
 int main(void){
 	printf("%s -> %s\n", "abc", toUpperCase("abc"));
 	printf("%s -> %s\n", "abc", toUpperCase("abc2"));
+	printf("%s -> %s\n", "abc", toUpperCase("abc3"));
 	printf("%s -> %s\n", "a1b2c3", toUpperCase("a1b2c3"));
 	return 0;
 }
